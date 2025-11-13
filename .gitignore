@@ -11,6 +11,8 @@ ENV/
 
 # API Keys (DO NOT COMMIT)
 config.py
+*/config.py
+**/config.py
 
 # PyCharm
 .idea/
