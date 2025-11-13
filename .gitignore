@@ -9,9 +9,15 @@ venv/
 env/
 ENV/
 
+# API Keys (DO NOT COMMIT)
+config.py
+
 # PyCharm
 .idea/
 *.iml
+
+# VS Code
+.vscode/
 
 # macOS
 .DS_Store
@@ -20,3 +26,11 @@ ENV/
 *.egg-info/
 dist/
 build/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
